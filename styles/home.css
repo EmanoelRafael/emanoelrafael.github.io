@@ -1,0 +1,19 @@
+body {
+    background-color: blue;
+}
+
+.botao-social {
+    height: 40px;
+    width: 40px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
