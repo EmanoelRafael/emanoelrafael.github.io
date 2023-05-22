@@ -26,9 +26,11 @@ body {
 
 .nome {
     position: relative;
-    top: 40%;
+    top: 30%;
     margin: 0;
     text-align: center;
+    font-family: cursive;
+    font-size: 60px;
     /* border: 1px;
     border-style: dashed; */
 }
@@ -36,8 +38,11 @@ body {
 .citacao {
     position: relative;
     margin: 0;
-    top: 35%;
+    top: 25%;
     text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
     /* border: 1px;
     border-style: dashed; */
 }
@@ -45,11 +50,27 @@ body {
 .bmp1 {
     position: relative;
     margin: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border: 0px;
 }
 
 .bmp2 {
     position: relative;
     margin: 5px;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    border: 0px;
+}
+
+.seta {
+    width: 25px;
+    border-radius: 10px;
+    height: 25px;
 }
 
 .lista-curiosidades {
@@ -80,6 +101,7 @@ body {
 .logo {
     height: 40px;
     width: 40px;
+    background-color: transparent;
 }
 
 #nav-bar {
@@ -98,4 +120,32 @@ body {
 
 .nav-social {
     padding-right: 10px;
+}
+
+.botao-menu {
+    height: 6vh;
+    width: 10vw;
+    border-radius: 10px;
+    border: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao-menu:hover {
+    background-color: transparent;
+}
+
+.botao-linguagem {
+    height: 6vh;
+    width: 8vw;
+    border-radius: 10px;
+    border: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.botao-portugues {
+    margin-right: 0px;
+}
+
+.botao-ingles {
+    margin-left: 0px;
 }
