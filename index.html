@@ -12,30 +12,33 @@
     <header>
         <nav id="nav-bar">
             <div class="nav-idioma">
-            <button class="botao-portugues" class="botao-linguagem">pt-Br</button>
-            <button class="botao-ingles" class="botao-linguagem">en-Us</button>
+            <button class="botao-portugues botao-linguagem">pt-Br</button>
+            <button class="botao-ingles botao-linguagem">en-Us</button>
             </div>
             <div class="nav-menu">
-            <button id="botao-projetos" class="botao-menu">Projetos</button>
-            <button id="botao-sobre-mim" class="botao-menu">Sobre Mim</button>
-            <button id="botao-curriculo" class="botao-menu">Currículo</button>
+            <button class="botao-projetos botao-menu">Projetos</button>
+            <button class="botao-sobre-mim botao-menu" onclick="window.alert('SOBRE MIM')">Sobre Mim</button>
+            <button class="botao-curriculo botao-menu">Currículo</button>
             </div>
             <div class="nav-social">
-            <button id="botao-linkedin" class="botao-social"><img src="images/icons/logo-linkedin.png" class="logo" alt="logo do linkedin"></button>
-            <button id="botao-gmail" class="botao-social"><img src="images/icons/logo-gmail.png" class="logo" alt="logo do gmail"></button>
-            <button id="botao-github" class="botao-social"><img src="images/icons/logo-github.png" class="logo" alt="logo do github"></button>
+            <button class="botao-linkedin botao-social"><img src="images/icons/logo-linkedin.png" class="logo" alt="logo do linkedin"></button>
+            <button class="botao-gmail botao-social"><img src="images/icons/logo-gmail.png" class="logo" alt="logo do gmail"></button>
+            <button class="botao-github botao-social"><img src="images/icons/logo-github.png" class="logo" alt="logo do github"></button>
             </div>
         </nav>
     </header>
     <main>
         <section class="primeira-pagina">
-            <h1 class="nome">Emanoel <br> Rafael </h1>
+            <div class="nome">
+                <h1 class="primeiro-nome">Emanoel</h1>
+                <h1 class="segundo-nome">Rafael</h1>
+            </div>
             <h2 class="citacao">Futuro Engenheiro da Computação <br>
             Apaixonado por Tecnologia.</h2>
-            <button class="bmp bmp1"><img class="seta" src="images/setaDown.png" alt="setaDown"></button>
+            <button class="bmp bmp1" onclick="window.scrollTo(0,1000)"><img class="seta" src="images/setaDown.png" alt="setaDown"></button>
         </section>
         <section class="segunda-pagina">
-            <button class="bmp bmp2"><img class="seta" src="images/setaUp.png" alt="setaUp"></button>
+            <button class="bmp bmp2" onclick="window.scrollTo(0,0)"><img class="seta" src="images/setaUp.png" alt="setaUp"></button>
             <ul class="lista-curiosidades">
                 <li class="item-lista-curiosidade">
                         <h1>Titulo</h1>
@@ -48,6 +51,7 @@
                             ullam sint cupiditate corporis possimus quos voluptatum! 
                             Expedita ad sunt corrupti animi pariatur?</p>
                 </li>
+                <div class="verticalLine"></div>
                 <li class="item-lista-curiosidade">
                         <h1>Titulo</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -59,6 +63,7 @@
                             ullam sint cupiditate corporis possimus quos voluptatum! 
                             Expedita ad sunt corrupti animi pariatur?</p>
                 </li>
+                <div class="verticalLine"></div>
                 <li class="item-lista-curiosidade">
                         <h1>Titulo</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 

@@ -31,8 +31,21 @@ body {
     text-align: center;
     font-family: cursive;
     font-size: 60px;
-    /* border: 1px;
-    border-style: dashed; */
+    border: 1px;
+    /* border-style: solid;
+    width: 30vw; */
+}
+
+.primeiro-nome {
+    margin: 0px;
+    margin-right: 80px;
+    font-size: 60px;
+}
+
+.segundo-nome {
+    margin: 0px;
+    margin-left: 80px;
+    font-size: 60px;
 }
 
 .citacao {
@@ -47,36 +60,35 @@ body {
     border-style: dashed; */
 }
 
-.bmp1 {
+.bmp {
     position: relative;
-    margin: 5px;
-    border-radius: 10px;
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 20px;
     width: 30px;
     height: 30px;
     padding: 0px;
-    border: 0px;
+    border: 2px;
+    border-style: solid;
 }
 
-.bmp2 {
-    position: relative;
-    margin: 5px;
-    border-radius: 10px;
-    width: 30px;
-    height: 30px;
-    padding: 0px;
-    border: 0px;
+.bmp:hover {
+    background-color: gray;
 }
 
 .seta {
-    width: 25px;
-    border-radius: 10px;
-    height: 25px;
+    width: 20px;
+    border-radius: 20px;
+    height: 20px;
+    border-style: solid;
+    border: 2px;
 }
 
 .lista-curiosidades {
     position: relative;
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
     justify-content: space-between;
     top: 20%;
 }
@@ -84,10 +96,17 @@ body {
 .item-lista-curiosidade {
     margin: 10px;
     list-style-type: none;
+    text-align: justify;
 }
 
 .item-lista-curiosidade h1 {
     text-align: center;
+}
+
+.verticalLine {
+    height: 275px;
+    width: 15px;
+    background-color: black;
 }
 
 .botao-social {
@@ -96,11 +115,16 @@ body {
     padding: 0px;
     border: 0px;
     margin: 0px;
+    border-radius: 10px;
+}
+
+.botao-social:hover {
+    background-color: transparent;
 }
 
 .logo {
-    height: 40px;
-    width: 40px;
+    height: 100%;
+    width: 100%;
     background-color: transparent;
 }
 
@@ -113,13 +137,8 @@ body {
     padding: 0;
 }
 
-
-.nav-idioma {
-    padding-left: 10px;
-}
-
 .nav-social {
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .botao-menu {
@@ -134,18 +153,29 @@ body {
     background-color: transparent;
 }
 
+.nav-idioma {
+    display: flex;
+    margin-left: 10px;
+}
+
 .botao-linguagem {
-    height: 6vh;
-    width: 8vw;
+    height: 4vh;
+    width: 4vw;
     border-radius: 10px;
     border: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.botao-linguagem:hover {
+    background-color: transparent;
 }
 
 .botao-portugues {
+    border-radius: 10px 0px 0px 10px;
     margin-right: 0px;
 }
 
 .botao-ingles {
+    border-radius: 0px 10px 10px 0px;
     margin-left: 0px;
 }
