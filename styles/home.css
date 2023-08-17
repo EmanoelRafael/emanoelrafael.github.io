@@ -5,10 +5,18 @@
 
 body {
     /* background-image: url('../images/background.png'); */
-    background-color: #003B00;
+    background-color: #FFB48A;
     background-size: cover;
     margin: 0px;
     padding: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: #5D2417;
 }
 
 .primeira-pagina {
@@ -37,26 +45,26 @@ body {
     text-align: center;
     font-size: 600%;
     line-height: 90%;
-    color: #B7FF5A;
-    text-shadow: -1px -1px 1px #556B2F,
+    color: #320000;
+    /* text-shadow: -1px -1px 1px #556B2F,
     -1px 1px 0px #556B2F,
     1px -1px 0px #556B2F,
-    1px 0px 0px #556B2F;
+    1px 0px 0px #556B2F; */
 }
 
 .citacao {
     position: relative;
     margin: 0;
-    top: 25%;
+    bottom: 2%;
     text-align: center;
     font-size: 120%;
     font-family: quicksand;
-    color: #B7FF5A;
+    color: #320000;
     /* border: 1px;
     border-style: dashed; */
 }
 
-.bmp {
+/* .bmp {
     position: relative;
     background-color: transparent;
     margin: 10px;
@@ -70,15 +78,15 @@ body {
 
 .bmp:hover {
     background-color: gray;
-}
+} */
 
-.seta {
+/* .seta {
     width: 20px;
     border-radius: 20px;
     height: 20px;
     border-style: solid;
     border: 2px;
-}
+} */
 
 .lista-curiosidades {
     position: relative;
@@ -112,10 +120,11 @@ body {
     border: 0px;
     margin: 0px;
     border-radius: 10px;
+    background-color: transparent;
 }
 
 .botao-social:hover {
-    background-color: transparent;
+    background-color: #320000;
 }
 
 .logo {
@@ -138,15 +147,19 @@ body {
 }
 
 .botao-menu {
-    height: 6vh;
+    /* height: 6vh; */
+    height: 10vh;
     width: 10vw;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    color: #320000;
 }
 
 .botao-menu:hover {
-    background-color: transparent;
+    background-color: #320000;
+    color: #5D2417;
 }
 
 .nav-idioma {
@@ -159,11 +172,14 @@ body {
     width: 4vw;
     border-radius: 10px;
     border: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent; 
+    color: #320000;
 }
 
 .botao-linguagem:hover {
-    background-color: transparent;
+    background-color: #320000;
+    color: #5D2417;
 }
 
 .botao-portugues {
