@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 10vh;
-    background-color: #5D2417;
+    background-color: #FFB48A;
 }
 
 .primeira-pagina {
@@ -92,7 +92,6 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     justify-content: space-between;
     top: 20%;
 }
@@ -113,25 +112,6 @@ body {
     background-color: black;
 }
 
-.botao-social {
-    height: 40px;
-    width: 40px;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    border-radius: 10px;
-    background-color: transparent;
-}
-
-.botao-social:hover {
-    background-color: #320000;
-}
-
-.logo {
-    height: 100%;
-    width: 100%;
-    background-color: transparent;
-}
 
 #nav-bar {
     display: flex;
@@ -146,11 +126,28 @@ body {
     margin-right: 10px;
 }
 
+.botao-social {
+    height: 10vh;
+    width: 40px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.botao-social:hover {
+    background-color: #320000;
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
 .botao-menu {
-    /* height: 6vh; */
     height: 10vh;
     width: 10vw;
-    /* border-radius: 10px; */
     border: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: transparent;
@@ -159,19 +156,19 @@ body {
 
 .botao-menu:hover {
     background-color: #320000;
-    color: #5D2417;
+    color: #FFB48A;
 }
 
 .nav-idioma {
-    display: flex;
     margin-left: 10px;
 }
 
 .botao-linguagem {
-    height: 4vh;
+    height: 10vh;
     width: 4vw;
-    border-radius: 10px;
-    border: 10px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: transparent; 
     color: #320000;
@@ -179,15 +176,5 @@ body {
 
 .botao-linguagem:hover {
     background-color: #320000;
-    color: #5D2417;
-}
-
-.botao-portugues {
-    border-radius: 10px 0px 0px 10px;
-    margin-right: 0px;
-}
-
-.botao-ingles {
-    border-radius: 0px 10px 10px 0px;
-    margin-left: 0px;
+    color: #FFB48A;
 }
